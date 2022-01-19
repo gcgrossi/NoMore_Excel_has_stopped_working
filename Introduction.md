@@ -1,7 +1,4 @@
-# No More: 'Excel has stopped working'! 😡
-## For all the Asset Managers, Bankers and Quants tired of "Excel has stopped working". A practical guide to switch from Excel to Python.
-
-### Introduction
+# Introduction
 
 The world of Finance is completely overwhelmed by the usage of Excel. From small businesses to big organizations Excel is the go to tool when speaking about almost everything regarding data. 
 
