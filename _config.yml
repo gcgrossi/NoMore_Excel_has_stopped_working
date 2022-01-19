@@ -2,3 +2,5 @@ remote_theme: pmarsceill/just-the-docs
 
 title: No more Excel
 description: A guide for Asset Managers
+
+color_scheme: dark
