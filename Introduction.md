@@ -1,3 +1,9 @@
+---
+layout: default
+title: Introduction
+nav_order: 2
+---
+
 # Introduction
 
 The world of Finance is completely overwhelmed by the usage of Excel. From small businesses to big organizations Excel is the go to tool when speaking about almost everything regarding data. 
@@ -33,7 +39,7 @@ Definetly is not true for Quant and Asset Management. It's know more than three 
 
 Well in python it goes like that:
 
-```
+```python
 df['ma20'] = df['price'].rolling(20)
 ```
 
