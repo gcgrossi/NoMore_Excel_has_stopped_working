@@ -22,7 +22,8 @@ I mainly use Eikon terminal, that is the application for Reuters data streaming.
 
 ## Two types of data
 
-Before jumping on the subject it is maybe useful to make a distinction between the main two types of data you can retrieve from these providers:
+Before jumping on the
+subject it is maybe useful to make a distinction between the main two types of data you can retrieve from these providers:
 
 1. **Live data:** this type of data always refers to the latest data available for a particular instrument. There is a timestamp attached to the quote. It is used mainly for live monitoring of the financial market and live/algo trading. 
 2. **Historical data:** this type of data refers to all the records for a certain interval of time. There are different frequencies of sampling available, i.e. daily, hourly, 10 minutes etc. It is used mainly for backtesting, model training and the calculation of metrics/indicators.
@@ -34,6 +35,9 @@ Connection with Eikon in Excel is made via a dynamic (.dll) library that is inst
 Once Excel is opened, the add-in buttons are accessible via the ribbon.
 
 <img src="https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/images/Eikon_Ribbon.png">
+
+
+<img width="959" alt="Eikon_Ribbon" src="https://user-images.githubusercontent.com/14998207/152521060-efb42198-3a0f-4a87-a2ca-1e9d291242a7.png">
 
 
 ![](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/images/Eikon_Ribbon.png)
