@@ -33,8 +33,8 @@ Connection with Eikon in Excel is made via a dynamic (.dll) library that is inst
 
 Once Excel is opened, the add-in buttons are accessible via the ribbon.
 
-<img src="images/Eikon_Ribbon.png">
-    
+<img src="./images/Eikon_Ribbon.png">
+
 I'm not going to explain the functionalities of all the buttons but there are a couple of takeways and features to underline:
 
 1. Connection is made under the hood via the Connect button.
