@@ -34,13 +34,7 @@ Connection with Eikon in Excel is made via a dynamic (.dll) library that is inst
 
 Once Excel is opened, the add-in buttons are accessible via the ribbon.
 
-<img src="https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/images/Eikon_Ribbon.png">
-
-
 <img width="959" alt="Eikon_Ribbon" src="https://user-images.githubusercontent.com/14998207/152521060-efb42198-3a0f-4a87-a2ca-1e9d291242a7.png">
-
-
-![](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/images/Eikon_Ribbon.png)
 
 I'm not going to explain the functionalities of all the buttons but there are a couple of takeways and features to underline:
 
@@ -50,7 +44,7 @@ I'm not going to explain the functionalities of all the buttons but there are a 
 
 Historical data can be obtained by using a service called 'Datastream'. There is another panel on the Ribbon to access it.
 
-<img src="images/Datastream_Ribbon.png">
+<img width="959" alt="Datastream_Ribbon" src="https://user-images.githubusercontent.com/14998207/152521324-0c4f2b38-7dca-4fae-8f4f-ec14fba800b7.png">
 
 Also in this case there are different buttons. The buttons on the left will open a GUI with different features. Some takeways:
 
@@ -64,11 +58,11 @@ If you know the codes and the formulas, you can directly type them in a blank ce
 
 Here is an example of Excel Formula for Live data:
 
-<img src="images/RtGet.png" width="50%">
+<img width="236" alt="RtGet" src="https://user-images.githubusercontent.com/14998207/152521352-9f862e7c-6e06-4140-8463-9025035c811c.png">
 
 while here is an example of Datstream formula:
 
-<img src="images/DS_Formula.png" width="100%">
+<img width="710" alt="DS_Formula" src="https://user-images.githubusercontent.com/14998207/152521383-27abf7dd-45ef-4c79-81eb-b8ee8df364cd.png">
 
 These features help in building a nice framework to work with Excel. In fact, a lot of Excel applications in Finance are constructed on top of Eikon. There are some drawbacks in my opinion by the way:
 1. both of the interfaces (for live and historical data) are counter-intuitive and hard to navigate. 
@@ -81,11 +75,11 @@ Let's see how can we retreive the same information using Python, istead of the E
 
 There is code you can tap in the Eikon bar search bar: 'APPKEY'
 
-<img src="images/appkey.png" width="50%">
+<img width="358" alt="appkey" src="https://user-images.githubusercontent.com/14998207/152521413-46d0e079-d967-4fe6-8615-b9cab0a7c26e.png">
 
 And register a new app with a custom name
 
-<img src="images/register_app.png" width="100%">
+![register_app](https://user-images.githubusercontent.com/14998207/152521489-2e819c2f-592f-4f5d-8192-e8c8ac6fa269.png)
 
 you will be given a long string of numbers and alphas that you will need after, in order to connect from Python. As you can see I have already done that for a my development projects.
 
