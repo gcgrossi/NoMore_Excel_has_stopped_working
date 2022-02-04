@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Introduction
+title: 👹 Introduction to the nightmare
 nav_order: 2
 ---
 
-# Introduction
+# 👹 Introduction to the nightmare
 
 The world of Finance is completely overwhelmed by the usage of Excel. From small businesses to big organizations Excel is the go-to tool when speaking about almost everything regarding data. 
 
