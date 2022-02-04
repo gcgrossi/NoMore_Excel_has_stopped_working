@@ -17,8 +17,8 @@ remote_theme: pmarsceill/just-the-docs
 # in the templates via {{ site.myvariable }}.
 title: Excel Stopped Working
 description: A guide for Asset Managers
-#baseurl: "./" # the subpath of your site, e.g. /blog
-#url: "https://gcgrossi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/NoMore_Excel_has_stopped_working" # the subpath of your site, e.g. /blog
+url: "https://gcgrossi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"
