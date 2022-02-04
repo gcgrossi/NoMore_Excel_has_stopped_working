@@ -54,7 +54,7 @@ Here is an example of Excel Formula for Live data:
 
 while here is an example of Datstream formula:
 
-<img src="images/DS_formula.png">
+<img src="images/DS_formula.png" width="100%">
 
 These features help in building a nice framework to work with Excel. In fact, a lot of Excel applications in Finance are constructed on top of Eikon. There are some drawbacks in my opinion by the way:
 1. both of the interfaces (for live and historical data) are counter-intuitive and hard to navigate. 
