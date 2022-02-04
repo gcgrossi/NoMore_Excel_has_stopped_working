@@ -3,7 +3,6 @@ layout: default
 title: 🎏 Getting Data
 nav_order: 3
 has_children: true
-permalink: /docs/ui-components
 ---
 
 # 🎏 Getting Data
