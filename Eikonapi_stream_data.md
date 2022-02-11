@@ -114,7 +114,7 @@ Ideally, we would like to receive an update each time new data arrives on the se
 
 # A second, more efficient, approach
 
-We will exploit a new method of the API called ```Streaming Prices```. The method is similar to ```get_data```, it accepts the same inputs (a list of instrument codes and a list of fields to retrieve) but in addition, it supports event handling. This means that when a certain event happens (i.e.a new field is updated) the information contained in the event can be passed to a function and you can use it for your purposes. 
+We will exploit a Class of the API called ```Streaming Prices```. The Class is similar to ```get_data```, it accepts the same inputs (a list of instrument codes and a list of fields to retrieve) but in addition, it supports event handling. This means that when a certain event happens (i.e.a new field is updated) the information contained in the event can be passed to a function and you can use it for your purposes. 
 
 Let's see how this is translated in Python:
 
