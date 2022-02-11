@@ -1,3 +1,10 @@
+---
+layout: default
+title: Python Eikon. How to get a constant stream of Data
+parent: 🎏 Getting Data
+nav_order: 3
+---
+
 # The Eikon API
 
 # How to get a constant stream of data
