@@ -2,21 +2,21 @@
 
 # How to get a constant stream of data
 
-In the previous episode [add link] we saw how to setup your environment and getting started very quickly with Eikon API for python. In few steps we were able to generate and app key and retrieve the live quote for a couple of instruments.
+In the [previous episode](https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_getting_started/) we saw how to set up your environment and get started very quickly with Eikon API for python. In a few steps, we were able to generate an app key and retrieve the live quote for a couple of instruments.
 
-We saw that in order to be able to get information from the API we must know the specific codes from Eikon. Unfortunately this is one of the difficulties in programming your Python applications with Eikon, but once you experiment a little bit with the API you will quickly gain knowledge of the codes and start navigating very easily. As always happens in coding, when learning something new you should get the hands dirty first!
+We saw that to be able to get information from the API we must know the specific codes from Eikon. Unfortunately, this is one of the difficulties in programming your Python applications with Eikon, but once you experiment a little bit with the API you will quickly gain knowledge of the codes and start navigating very easily. As always happens in coding, when learning something new you should get your hands dirty first!
 
-Most of the financial applications are aimed to monitor the current market data during a period of time. In example, a trading system would want to be able to compute some indicators, run prediction models and generate trading signal in a 'live' manner. This means that there should be a calculation engine that:
+Most financial applications are aimed to monitor the current market data during a period. For example, a trading system would want to be able to compute some indicators, run prediction models and generate a trading signal in a 'live' manner. This means that there should be a calculation engine that:
 
-- runs persistenly in background.
+- runs persistently in the background.
 - fetches data.
 - manipulates them.  
-- generate trading signal.
+- generate a trading signal.
 - act on the trading signal or send a notification.
 
-This is something that can hardly be achieved in Excel. With Excel you can, in example have a spreadsheet opened in the background that is constantly running, but the solution will end up being very inefficient, with a lot of errors and crashes. Moreover, a problem with parallelization and threading will arise. Meaning that running multiple, concurrent jobs will be almost impossible to realize. You can still try to find a workaround, by running a master job that handles opening different workbooks but I doubt you're going to be still in good mental health after building such a framework.
+This is something that can hardly be achieved in Excel. With Excel you can, for example, have a spreadsheet opened in the background that is constantly running, but the solution will end up being very inefficient, with a lot of errors and crashes. Moreover, a problem with parallelization and threading will arise. Meaning that running multiple, concurrent jobs will be almost impossible to realize. You can still try to find a workaround, by running a master job that handles opening different workbooks but I doubt you're going to be still in good mental health after building such a framework.
 
-Truth is that Excel was not made for this purpose. Python is a way better tool to handle these kind of jobs, and with the Eikon API you can create a very powerful live data processing station. Let's see how to do that. 
+Truth is that Excel was not made for this purpose. Python is a way better tool to handle these kinds of jobs, and with the Eikon API, you can create a very powerful live data processing station. Let's see how to do that. 
 
 ## ```get_data```
 We will use this method, which returns a ```pandas.DataFrame``` with fields in columns and instruments as row index. The input parameters are summarized in the table below:
@@ -94,8 +94,8 @@ while True:
     
 
 In the code above: 
-- We first setup the connection to Eikon, as we saw in the previous episodes.
-- We start a an infinite loop usinge the ```while``` clause.
+- We first set up the connection to Eikon, as we saw in the previous episodes.
+- We start an infinite loop using the ```while``` clause.
 - We retrieve the information we need as usual.
 - Using the module ```time``` we wait 10 seconds before repeating the process.
 
@@ -103,11 +103,11 @@ We can set a different value for the timeout to change the frequency as we wish.
 
 One remark about this procedure: it is a static procedure. Meaning that there is a fixed dead-time between the start of the loop and the sleep interval. During this dead time, if the price of the instrument changes, we will not be able to catch the change. This is not ideal for all those applications that need quick in-time responses.
 
-Ideally we would like to receive an update each time new data arrives to the server and perform our calculations asyncronously (i.e. process the data in a different/parallel thread), before receiveing new updates. Fortunately, this is achievable by using a built-in method of the Eikon API. Let's see how.
+Ideally, we would like to receive an update each time new data arrives on the server and perform our calculations asynchronously (i.e. process the data in a different/parallel thread), before receiving new updates. Fortunately, this is achievable by using a built-in method of the Eikon API. Let's see how.
 
 # A second, more efficient, approach
 
-We will exploit a new method of the API called ```Streaming Prices```. The method is similar to ```get_data```, it accepts the same inputs (a list of instrument codes and a list of fields to retrieve) but in addition it supports event handling. This means that when a certain event happens (i.e.a new field is updated) the information contained in the event can be passed to a function and you can use is for your purposes. 
+We will exploit a new method of the API called ```Streaming Prices```. The method is similar to ```get_data```, it accepts the same inputs (a list of instrument codes and a list of fields to retrieve) but in addition, it supports event handling. This means that when a certain event happens (i.e.a new field is updated) the information contained in the event can be passed to a function and you can use it for your purposes. 
 
 Let's see how this is translated in Python:
 
@@ -153,10 +153,10 @@ streaming_prices.close()
     
 
 In the code above:
-- we define a function that will print the information contained in the streming event.
+- we define a function that will print the information contained in the streaming event.
 - we define a streaming price with its inputs.
 - we open the streaming, wait 1 second, and then close it.
 
 As you can see the ```instruments``` and ```fields``` inputs are the same, but here we use the ```on_update``` event to define a callback to the ```print_update``` function, that will be called every time a new data arrives and will be passed the streaming information via the ```lambda``` function. If you want to know more about the functioning of ```lambda``` you can read this small tutorial [article](https://www.w3schools.com/python/python_lambda.asp). 
 
-In the end we can achieve what we wanted in the beginning, a constant stream of data the is sent to us from the server, as we like: a nice waiter that serves data ready to be consumed, while we wait at the table and brew some coffee! ☕
+In the end, we can achieve what we wanted in the beginning, a constant stream of data that is sent to us from the server, as we like: a nice waiter that serves data ready to be consumed, while we wait at the table and brew some coffee! ☕
