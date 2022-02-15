@@ -94,10 +94,10 @@ while True:
 
 ```
 
-    03/02/2022 16:27:40: retrieving info
-      Instrument  CF_LAST   CF_BID
-    0       .SPX   4536.6  4534.88
-    1     AAPL.O    175.6   175.58
+    15/02/2022 17:33:43: retrieving info
+      Instrument  CF_LAST  CF_BID
+    0       .SPX  4463.69  4462.7
+    1     AAPL.O   171.46  171.45
     
 
 In the code above: 
@@ -165,5 +165,64 @@ In the code above:
 - we open the streaming, wait 1 second, and then close it.
 
 As you can see the ```instruments``` and ```fields``` inputs are the same, but here we use the ```on_update``` event to define a callback to the ```print_update``` function, that will be called every time a new data arrives and will be passed the streaming information via the ```lambda``` function. If you want to know more about the functioning of ```lambda``` you can read this small tutorial [article](https://www.w3schools.com/python/python_lambda.asp). 
+
+## 4 Types of event handle
+
+In total there are four types of events that can trigger your code. 
+
+- ```on_update```: Update events are received when fields of a requested instrument change. Only the fields that changed are displayed.
+- ```on_refresh```: Refresh events happen when all fields of one of the requested instruments are received.
+- ```on_status```: Status events are received when the status of one of the requested instruments changes.
+- ```on_complete```: A Complete event is received once all the requested instruments received either a Refresh or a Status event.
+
+You can add any of those events as an additional argument to the code we already wrote. In example an update and refresh event together will look like this
+
+
+```python
+# define a callback function to print simple info
+def print_update(streaming_price, instrument_name, fields):
+    print("Update received for {}: {}".format(instrument_name, fields))
+    return
+
+def print_refresh(streaming_price, instrument_name, fields):
+    print("Refresh received for {}: {}".format(instrument_name, fields))
+    return
+
+# define the streaming price object
+# use the callback to print the information
+streaming_prices = eikon.StreamingPrices(
+    instruments = ['.SPX', 'AAPL.O'], 
+    fields = ['DSPLY_NAME', 'BID', 'ASK'],
+    on_update = lambda streaming_price, instrument_name, fields :  
+        print_update(streaming_price, instrument_name, fields),
+    on_refresh = lambda streaming_price, instrument_name, fields :  
+        print_refresh(streaming_price, instrument_name, fields)
+)
+
+# open streming
+# wait 1 second
+# close streaming
+streaming_prices.open()
+time.sleep(1)
+streaming_prices.close()
+```
+
+    Refresh received for AAPL.O: {'DSPLY_NAME': 'APPLE INC', 'BID': 171.53, 'ASK': 171.54}
+    Refresh received for .SPX: {'DSPLY_NAME': 'S&P 500 INDEX', 'BID': 4463.79, 'ASK': 4465.77}
+    
+
+
+
+
+    <StreamState.Closed: 1>
+
+
+
+    Update received for .SPX: {'BID': 4463.8, 'ASK': 4465.78}
+    Update received for AAPL.O: {'BID': 171.53, 'ASK': 171.54}
+    Update received for AAPL.O: {'BID': 171.53, 'ASK': 171.54}
+    Update received for AAPL.O: {'BID': 171.53, 'ASK': 171.54}
+    Update received for AAPL.O: {'BID': 171.53, 'ASK': 171.54}
+    
 
 In the end, we can achieve what we wanted in the beginning, a constant stream of data that is sent to us from the server, as we like: a nice waiter that serves data ready to be consumed, while we wait at the table and brew some coffee! ☕
