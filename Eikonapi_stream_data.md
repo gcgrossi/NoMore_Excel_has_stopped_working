@@ -28,6 +28,10 @@ Truth is that Excel was not made for this purpose. Python is a way better tool t
 ## ```get_data```
 We will use this method, which returns a ```pandas.DataFrame``` with fields in columns and instruments as row index. The input parameters are summarized in the table below:
 
+### Structure
+
+```get_data(instruments, fields, parameters=None, field_name=False, raw_output=False, debug=False)```
+
 ### Parameters
 
 | Name | Type | Description |
