@@ -22,7 +22,7 @@ url: "https://gcgrossi.github.io" # the base hostname & protocol for your site, 
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"
-, "docs/tests/"
+, "docs/tests/","Eikonapi_timeseries_data.md"
 ]
 
 # Regression tests
