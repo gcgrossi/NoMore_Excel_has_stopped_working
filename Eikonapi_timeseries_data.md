@@ -29,17 +29,17 @@ The first method provides an 'easy' way to find the time series you need. It's c
 
 I wrote easy in quotation marks because I always found the interface legacy and hard to navigate. This is only my opinion but you can judge yourself by looking at the example image below. Nowadays we are used to advanced search bars and engines and I found that this particular one would need a refresh. In the example, I tried to search for the S&P500 and that is what I get as the first attempt, without adding filters. Quite disappointing for a company that earns a quite good amount of money from their clients.
 
-<img src="images/DFO_Navigator.png">
+<img width="956" alt="DFO_Navigator" src="https://user-images.githubusercontent.com/14998207/154933316-89fef4f7-7ba1-43ef-a6f0-2b691f6cbd28.png">
 
 Once the instrument you are searching for is found, the _Time Series Request_ Button will help you create the Data request.
 
-<img src="images/DS_TSRequest.png" width="75%">
+<img width="532" alt="DS_TSRequest" src="https://user-images.githubusercontent.com/14998207/154933457-8b5064b9-ea5f-4abc-bb2f-559c5127064a.png">
 
 You can directly type the code in the corresponding field or search for it. You can easily customize your request with a lot of options that are accessed directly on the panel, and this is a very nice feature. 
 
 The result is dumped on the excel spreadsheet in the first column. If you submit more requests at the same time more columns will be filled with data.
 
-<img src="images/DS_TS.png">
+<img width="958" alt="DS_TS" src="https://user-images.githubusercontent.com/14998207/154933521-5c94ed85-7f39-4ec7-9c1c-82a7e5597ee6.png">
 
 If you pay attention to the image above, you will see that the add-in created a custom formula in the first cell: ```DSGRID```, with all the options that were specified during the manual request. Useless to say that if you know already the formula you can type it in one cell and you will still get your data. 
 
@@ -134,23 +134,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -258,19 +241,6 @@ df["MSFT.O"]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -346,19 +316,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
