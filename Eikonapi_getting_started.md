@@ -9,6 +9,8 @@ nav_order: 2
 
 # Getting Started with Python Eikon
 
+[![Made withJupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_getting_started.ipynb) 
+
 ## Introduction
 
 The first logical step of each application is always directly linked to the question: 'Where do I get my data?'. 
