@@ -16,6 +16,6 @@ permalink: /
  
  - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_getting_started/">Getting Started with Python Eikon</br></br>[![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_getting_started.ipynb)  </a>
  
-  - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_stream_data/">Python Eikon. How to get a constant stream of Data</a>
+  - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_stream_data/">Python Eikon. How to get a constant stream of Data </br></br>[![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_stream_data.ipynb)</a>
 
 
