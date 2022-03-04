@@ -14,14 +14,11 @@ permalink: /
 
 <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Geeting_Data/">🎏 Getting Data</a>
  
- - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_getting_started/">Getting Started with Python Eikon</a>
-
-&nbsp; [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_getting_started.ipynb)  
+ - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_getting_started.ipynb)
+ &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_getting_started/">Getting Started with Python Eikon</a>
  
-  - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_stream_data/">Python Eikon. How to get a constant stream of Data</a>
-  
- &nbsp; [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_stream_data.ipynb)
+- [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_stream_data.ipynb)
+&nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_stream_data/">Python Eikon. How to get a constant stream of Data</a>
 
- - <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_timeseries_data/">Python Eikon. How to get Market past data</a>
-
-&nbsp; [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_timeseries_data.ipynb)
+ - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_timeseries_data.ipynb)
+ &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_timeseries_data/">Python Eikon. How to get Market past data</a>
