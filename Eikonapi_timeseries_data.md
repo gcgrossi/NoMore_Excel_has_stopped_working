@@ -1,6 +1,15 @@
+---
+layout: default
+title: Python Eikon. How to get Market past data
+parent: 🎏 Getting Data
+nav_order: 4
+---
+
 # The Eikon API
 
 ## How to get Market past data with Python
+
+[![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_timeseries_data.ipynb)
 
 In the previous episode, we saw how could we get data from a 'live feed', the Eikon server which sends information constantly. We analyzed two methodologies to accomplish our final goal. In this way, we can (for example) update the valuations of the positions we hold and calculate the key metrics of our portfolio every time an updated market price is retrieved. 
 
