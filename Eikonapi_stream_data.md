@@ -9,6 +9,8 @@ nav_order: 3
 
 # How to get a constant stream of data
 
+[![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_stream_data.ipynb)
+
 In the [previous episode](https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_getting_started/) we saw how to set up your environment and get started very quickly with Eikon API for python. In a few steps, we were able to generate an app key and retrieve the live quote for a couple of instruments.
 
 We saw that to be able to get information from the API we must know the specific codes from Eikon. Unfortunately, this is one of the difficulties in programming your Python applications with Eikon, but once you experiment a little bit with the API you will quickly gain knowledge of the codes and start navigating very easily. As always happens in coding, when learning something new you should get your hands dirty first!
