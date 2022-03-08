@@ -68,8 +68,6 @@ Returns the port number used to communicate with the Eikon Data API Proxy.
 
 ### Structure
 
-```get_port_number()```
-
 The method returns ```None``` if the Eikon terminal is not running. 
 
 The port is either 9060 or 9000. If we want to control if the proxy is running we have two possible methods: use ```get_port_number``` and check if the result is not ```None``` or send an HTTP request to the 9060 port. 
@@ -79,6 +77,7 @@ I prefer using the method from the API, because it will avoid the hard-coding of
 ### #1 Use the API method
 
 ```python
+
 import eikon
 
 # connect to the eikon api
