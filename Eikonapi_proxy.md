@@ -38,11 +38,11 @@ My first question, after having discovered the issue was: "How can I deploy my a
 
 I had the confirmation searching the developers' community forum and I found out that I was not alone. Someone before me asked the same (or similar) question:
 
-<img src="images/Eikon_Proxy_Question.png">
+<img width="517" alt="Eikon_Proxy_Question" src="https://user-images.githubusercontent.com/14998207/157275409-944a3d8f-80bb-43e5-b377-4846de344e35.png">
 
 and one of the answers:
 
-<img src="images/Eikon_Proxy_Answer.png">
+<img width="523" alt="Eikon_Proxy_Answer" src="https://user-images.githubusercontent.com/14998207/157275459-67081a64-2d1b-4ca4-b25c-65c0d077d4df.png">
 
 you can follow the thread [here](https://community.developers.refinitiv.com/questions/48321/how-can-i-use-the-eikon-data-api-without-signing-i.html). Later on, I started thinking about what would be the best solution to deploy my applications, and the only two that came to my mind were: 
 1. A physical server you can connect via VNC or similar. 
