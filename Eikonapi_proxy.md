@@ -78,7 +78,6 @@ I prefer using the method from the API, because it will avoid the hard-coding of
 
 ### #1 Use the API method
 
-
 ```python
 import eikon
 
