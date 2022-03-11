@@ -22,8 +22,7 @@ url: "https://gcgrossi.github.io" # the base hostname & protocol for your site, 
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"
-, "docs/tests/",Eikonapi_proxy.md]
-]
+, "docs/tests/", "Eikonapi_proxy.md"]
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
