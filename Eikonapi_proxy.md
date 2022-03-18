@@ -7,7 +7,7 @@ nav_order: 5
 
 # The Eikon API
 
-## Hot to autostart the Eikon Terminal
+## How to autostart the Eikon Terminal
 
 [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_proxy.ipynb)
 
