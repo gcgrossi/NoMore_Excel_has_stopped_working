@@ -25,3 +25,6 @@ permalink: /
 
  - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_proxy.ipynb)
  &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_proxy/">How to autostart the Eikon Terminal with Python</a>
+
+ - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Eikonapi_class.ipynb)
+ &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Eikonapi_class/">Wrap everything into a Python Class
