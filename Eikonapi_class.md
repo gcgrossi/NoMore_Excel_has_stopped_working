@@ -393,6 +393,6 @@ df
 
 Here I made a very simple example, just to show the functionality of the class. In the future, we will take again this class and modify it to handle other tasks. For example, one can introduce a pre-processing step, where data are digested and transformed into the form that is most suitable for the application we are building. But as Aragorn used to say in front of the Black Gates of Mordor:
 
-<img src="images/Aragorn.jpg">
+![Aragorn](https://user-images.githubusercontent.com/14998207/165338091-8c5eb628-61a1-4859-9c20-39edd4b2ea80.jpg)
 
 Against the inefficiency of manual typing Evil, we stand, men of the Python Planet! 
