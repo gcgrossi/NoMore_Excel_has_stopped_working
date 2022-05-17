@@ -2,7 +2,7 @@
 layout: default
 title: The Binance API - Getting Started
 parent: 🎏 Getting Data
-nav_order: 1
+nav_order: 7
 ---
 
 # The Binance API

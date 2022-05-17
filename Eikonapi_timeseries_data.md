@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Python Eikon. How to get Market past data
-parent: 🎏 The Eikon API
+parent: 🎏 Getting Data
 nav_order: 4
 ---
 
