@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wrap Everything in a Python Class
-parent: 🎏 Getting Data
+parent: 🎏 The Eikon API
 nav_order: 6
 ---
 

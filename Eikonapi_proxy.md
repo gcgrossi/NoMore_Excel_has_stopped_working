@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to autostart the Eikon Terminal with Python
-parent: 🎏 Getting Data
+parent: 🎏 The Eikon API
 nav_order: 5
 ---
 

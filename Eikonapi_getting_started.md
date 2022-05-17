@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Started with Python Eikon
-parent: 🎏 Getting Data
+parent: 🎏 The Eikon API
 nav_order: 2
 ---
 
