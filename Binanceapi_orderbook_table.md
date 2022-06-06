@@ -27,6 +27,8 @@ In the next episodes, we will build a simple dashboard to stream live data from 
 
 We will leverage the power of Pandas and Jupiter Notebook widgets, so let's just create a blank Jupiter Notebook and start drawing on it like an artist with an empty canvas! FYI: this article is completely written with Jupyter Notebook!
 
+Unfortunately the Jupiter Notebook widgets don't reder well in this webpage so I really suggest you to look at the same version of this tutorial in the [ORIGINAL NOTEBOOK](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Binanceapi_orderbook_table.ipynb) and download the code in your local repository!
+
 # Retrieveing the first data
 
 retrieving the order book for the couple LUNA/BUSD is done via the endpoint 'depth'. In the previous article, we learnt how to perform the request to get the data, so the next cell should be very familiar to you.
