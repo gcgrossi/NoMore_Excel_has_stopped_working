@@ -31,5 +31,8 @@ permalink: /
 
  - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Binanceapi_intro.ipynb)
  &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Binanceapi_intro/">The Binance API - Getting Started
+ 
+  - [![GitHub](https://img.shields.io/static/v1?logo=Jupyter&label=jupyter&message=notebook&color=orange)](https://github.com/gcgrossi/NoMore_Excel_has_stopped_working/blob/main/Binanceapi_orderbook_table.ipynb)
+ &nbsp; <a href="https://gcgrossi.github.io/NoMore_Excel_has_stopped_working/Binanceapi_orderbook_table/">The Binance API - Orderbook Data Tables
 
  
