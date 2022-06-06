@@ -1,3 +1,10 @@
+---
+layout: default
+title: The Binance API - Order Book Data Table
+parent: 🎏 Getting Data
+nav_order: 8
+---
+
 
 ![Cover_BinanceAPI_OrderBook](https://user-images.githubusercontent.com/14998207/172191541-1b5dd2a9-3634-4d3f-b1e7-14c3d632204b.png)
 
