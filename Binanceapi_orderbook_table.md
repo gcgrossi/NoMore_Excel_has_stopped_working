@@ -1,4 +1,5 @@
-<img src="images/Cover_BinanceAPI_OrderBook.png">
+
+![Cover_BinanceAPI_OrderBook](https://user-images.githubusercontent.com/14998207/172191541-1b5dd2a9-3634-4d3f-b1e7-14c3d632204b.png)
 
 # The Binance API
 
@@ -276,19 +277,19 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+    <style scoped>
+        .dataframe tbody tr th:only-of-type {
+            vertical-align: middle;
+        }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+        .dataframe tbody tr th {
+            vertical-align: top;
+        }
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+        .dataframe thead th {
+            text-align: right;
+        }
+    </style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
