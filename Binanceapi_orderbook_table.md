@@ -835,7 +835,11 @@ while count<100:
 
 ## Conclusion
 
-If everything went fine, while the last cell was running, your widget got updated in real-time, by the time the loop was still processing. I think this makes a lot of fun because from here we can construct a complete and even complex dashboard! And get this:
+If everything went fine, while the last cell was running, your widget got updated in real-time, by the time the loop was still processing. 
+
+If you're having trouble or the widget do not render in HTML, check out this [video about how the table should look like](https://www.loom.com/share/cb44a7f704e34cd8a49cccd8ce1a2923).
+
+I think this makes a lot of fun because from here we can construct a complete and even complex dashboard! And get this:
 
 we did everything in a Jupyter Notebook, with just some basic Python and the help of HTML and CSS. I don't know you but I am sincerely impressed by how far technology has pushed itself! 
 
